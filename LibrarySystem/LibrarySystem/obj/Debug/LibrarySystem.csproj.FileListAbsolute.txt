@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.csprojAssemblyReference.cache
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Properties.Resources.resources
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.csproj.GenerateResource.cache
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystem.exe.config
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystem.exe
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystem.pdb
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.exe
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.pdb
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.BookInsert.resources
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Member.resources
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.MainForm.resources
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Borrow.resources
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Return.resources
+C:\Users\user\source\repos\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.About.resources
