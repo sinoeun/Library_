@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="da48f408eb604d0c9c09e61cc43fcd4a" Name="Diagram1">
+        <EntityTypeShape EntityType="LibrarySystemModel.Author" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.BookDetail" Width="1.5" PointX="11" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.BookPrice" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.BookStock" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.BookStockDetail" Width="1.5" PointX="7.5" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.BookWesteReport" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Borrow" Width="1.5" PointX="8.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.BorrowDetail" Width="1.5" PointX="10.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Branch" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Genre" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Guste" Width="1.5" PointX="2.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Languge" Width="1.5" PointX="12.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Location" Width="1.5" PointX="8.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Member" Width="1.5" PointX="6" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Position" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Publisher" Width="1.5" PointX="8.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Return" Width="1.5" PointX="11" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.ReturnDetail" Width="1.5" PointX="13.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Staff" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.Supplier" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.sysdiagram" Width="1.5" PointX="13.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.UserAccount" Width="1.5" PointX="12" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel.UserType" Width="1.5" PointX="9.75" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="LibrarySystemModel.FK_BookDetail_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_BookDetail_Publisher" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_ReturnDetail_BookDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_BookPrice_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_BookStock_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_BookStock_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_BookStockDetail_BookStock" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_BookWesteReport_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_Borrow_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_Borrow_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_BorrowDetail_Borrow" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_Staff_Branch" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_Return_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_Staff_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_ReturnDetail_Return" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel.FK_UserAccount_UserType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
